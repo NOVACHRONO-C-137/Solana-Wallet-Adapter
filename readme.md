@@ -1,7 +1,7 @@
 # Solana Wallet Adapter DApp
 
-
 ![Project Preview](https://via.placeholder.com/800x400?text=App+Preview+Placeholder)
+
 ## About The Project
 
 This application serves as a comprehensive dashboard for interacting with the Solana Devnet. It allows users to connect their wallets, manage their SOL balance, and perform on-chain transactions with a seamless user experience.
@@ -17,11 +17,11 @@ This application serves as a comprehensive dashboard for interacting with the So
 ## Tech Stack
 
 * **Frontend:** React (Vite)
-* **Blockchain SDK:** `@solana/web3.js`
-* **Wallet Integration:** `@solana/wallet-adapter-react` & `@solana/wallet-adapter-wallets`
-* **Cryptography:** `tweetnacl`, `bs58`
-* **UI/Styling:** Google Fonts (Roboto Slab, Bitcount Single)
-* **Notifications:** `react-toastify`
+* **Blockchain SDK: `@solana/web3.js`
+* **Wallet Integration: `@solana/wallet-adapter-react` & `@solana/wallet-adapter-wallets`
+* **Cryptography: `tweetnacl`, `bs58`
+* **UI/Styling: Google Fonts (Roboto Slab, Bitcount Single)
+* **Notifications: `react-toastify`
 
 
 ## Note on Network
