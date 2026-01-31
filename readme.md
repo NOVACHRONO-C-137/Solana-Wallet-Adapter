@@ -8,11 +8,11 @@ This application serves as a comprehensive dashboard for interacting with the So
 
 ## Key Features
 
-*  Multi-Wallet Support:** Connect via Phantom, Solflare, Backpack, and more using the Solana Wallet Adapter.
-*  Airdrop Request:** Instantly request SOL from the Solana Devnet to your wallet.
-*  Live Balance:** Real-time display of your wallet's SOL balance.
-*  Send Tokens:** Securely transfer SOL to any valid Solana address with input validation.
-*  Sign Messages:** Cryptographically sign messages to prove wallet ownership (verified via TweetNaCl).
+*  Multi-Wallet Support: Connect via Phantom, Solflare, Backpack, and more using the Solana Wallet Adapter.
+*  Airdrop Request: Instantly request SOL from the Solana Devnet to your wallet.
+*  Live Balance: Real-time display of your wallet's SOL balance.
+*  Send Tokens: Securely transfer SOL to any valid Solana address with input validation.
+*  Sign Messages: Cryptographically sign messages to prove wallet ownership (verified via TweetNaCl).
 
 ## Tech Stack
 
