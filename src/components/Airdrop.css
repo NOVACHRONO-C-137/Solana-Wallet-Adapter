@@ -1,0 +1,85 @@
+.airdrop-container {
+  background-color: #0c0914;
+  border: 1px solid #3a3a3a;
+  box-shadow: 0 8px 30px -5px rgba(81, 45, 168, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.airdrop-input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #0c0914;
+  border: 1px solid #3a3a3a;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  min-width: 0;
+  transition: all 0.2s ease;
+}
+
+.airdrop-input:focus {
+  border-color: #512da8;
+  box-shadow: 0 0 0 2px rgba(81, 45, 168, 0.2);
+}
+
+.airdrop-btn {
+  background-color: #512da8;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s,
+    transform 0.1s;
+}
+
+.airdrop-btn:hover {
+  background-color: #673ab7;
+}
+
+.airdrop-btn:active {
+  transform: scale(0.98);
+}
+
+.theme-light .airdrop-container {
+  background-color: #ffffff;
+  border-color: #e5e7eb;
+  color: #000;
+  box-shadow: 0 10px 25px -5px rgba(81, 45, 168, 0.3);
+}
+
+.theme-light .airdrop-input {
+  background-color: #f3f4f6;
+  border-color: #d1d5db;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .airdrop-container {
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .airdrop-input {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .airdrop-btn {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+}

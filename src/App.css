@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Single&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.app-root {
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-shell {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.app-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.app-header h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.theme-toggle {
+  background: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.theme-toggle-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.wallet-status-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.wallet-address-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: hidden;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.address {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  word-break: break-all;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.airdrop-container,
+.balance-container,
+.send-tokens-container {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.theme-dark.app-root {
+  background-color: #050505;
+  color: #ffffff;
+}
+.theme-dark .wallet-status-container {
+  background-color: #111;
+  border-color: #333;
+}
+
+.theme-light.app-root {
+  background-color: #fcf8fc;
+  color: #1e293b;
+}
+.theme-light .wallet-status-container {
+  background-color: #fff;
+  border-color: #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(168, 210, 223, 0.5);
+}
+
+button {
+  font-family: "Bitcount Single", monospace !important;
+}
+
+@media (max-width: 600px) {
+  .app-root {
+    padding: 20px 15px;
+  }
+  .app-header h1 {
+    font-size: 1.5rem;
+  }
+  .app-logo {
+    width: 40px;
+    height: 40px;
+  }
+  .theme-toggle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .wallet-status-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .address {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .label {
+    font-size: 0.7rem;
+  }
+
+  .wallet-adapter-button {
+    height: 36px !important;
+    padding: 0 15px !important;
+    font-size: 12px !important;
+    width: 100%;
+    justify-content: center;
+  }
+}
