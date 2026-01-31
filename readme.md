@@ -16,12 +16,12 @@ This application serves as a comprehensive dashboard for interacting with the So
 
 ## Tech Stack
 
-* **Frontend:** React (Vite)
-* **Blockchain SDK: `@solana/web3.js`
-* **Wallet Integration: `@solana/wallet-adapter-react` & `@solana/wallet-adapter-wallets`
-* **Cryptography: `tweetnacl`, `bs58`
-* **UI/Styling: Google Fonts (Roboto Slab, Bitcount Single)
-* **Notifications: `react-toastify`
+* Frontend: React (Vite)
+* Blockchain SDK: `@solana/web3.js`
+* Wallet Integration: `@solana/wallet-adapter-react` & `@solana/wallet-adapter-wallets`
+* Cryptography: `tweetnacl`, `bs58`
+* UI/Styling: Google Fonts (Roboto Slab, Bitcount Single)
+* Notifications: `react-toastify`
 
 
 ## Note on Network
