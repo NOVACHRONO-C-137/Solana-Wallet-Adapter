@@ -1,6 +1,6 @@
 # Solana Wallet Adapter DApp
 
-![Project Preview](https://via.placeholder.com/800x400?text=App+Preview+Placeholder)
+[Project Preview](https://via.placeholder.com/800x400?text=App+Preview+Placeholder)
 
 ## About The Project
 
@@ -31,5 +31,5 @@ This DApp is configured for the **Solana Devnet**.
 * Ensure your wallet (e.g., Phantom) is switched to **Developer Settings > Change Network > Devnet**.
 
 ## Standard Solana Wallet Adapter Github 
-![anza-xyz/wallet-adapter](https://github.com/anza-xyz/wallet-adapter)
+[anza-xyz/wallet-adapter](https://github.com/anza-xyz/wallet-adapter)
 
