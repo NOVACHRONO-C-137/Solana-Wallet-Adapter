@@ -30,6 +30,6 @@ This DApp is configured for the **Solana Devnet**.
 * **Sending Tokens** uses Devnet SOL (which has no real monetary value).
 * Ensure your wallet (e.g., Phantom) is switched to **Developer Settings > Change Network > Devnet**.
 
-## Standard Solana Wallet Adapter Github 
+## Solana Wallet Adapter Github Repo
 [anza-xyz/wallet-adapter](https://github.com/anza-xyz/wallet-adapter)
 
